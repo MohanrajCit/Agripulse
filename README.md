@@ -20,12 +20,19 @@ AgriShield AI is a comprehensive, multilingual agricultural advisory platform de
 - **Actionable Remedies:** Provides treatment and prevention plans in the user's language.
 - **Secure Processing:** Image analysis is handled securely via server-side Edge Functions.
 
-### 🌧️ Flood Risk Engine
-- **Real-Time Assessment:** Calculates flood risk (LOW / MEDIUM / HIGH) based on:
-  - Current rainfall intensity
-  - Consecutive rainy days streak
-  - 5-day predictive weather forecast
-- **Safety Alerts:** Push notifications for immediate preventative actions.
+### 📅 Smart Crop Calendar
+- **Daily Planner:** Generates specific farming tasks for each day based on crop stage.
+- **Dynamic Adjustments:** Automatically reschedules tasks (like spraying or sowing) if rain is predicted.
+- **Visual Timeline:** Track crop progress from sowing to harvest with stage-wise milestones.
+
+### 🌧️ Flood Risk Engine (Custom Logic)
+- **Advanced Heuristics:** Calculates risk using a weighted formula:
+  - `Risk Score = (Rainfall * 60%) + (Consecutive Rainy Days * 40%)`
+- **Thresholds:**
+  - 🟢 **LOW:** < 20mm rain & < 2 rainy days
+  - 🟡 **MEDIUM:** 20-50mm rain OR 2-4 rainy days
+  - 🔴 **HIGH:** > 50mm rain OR > 4 consecutive rainy days
+- **Instant Alerts:** Triggers emergency notifications when HIGH risk is detected.
 
 ### 🌤️ Hyper-Local Weather
 - **Precision Data:** Fetches data from OpenWeather map.
