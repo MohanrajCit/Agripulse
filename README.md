@@ -1,4 +1,4 @@
-# 🌾 AgriShield AI
+# 🌾 Agripulse AI
 
 > **AI-Powered, Flood-Aware Farming Assistant for Indian Farmers**
 
