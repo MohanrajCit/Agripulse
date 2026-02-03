@@ -1,0 +1,149 @@
+{
+    "app": {
+        "name": "AgriPulse",
+        "tagline": "AI-Powered Flood-Aware Farming Assistant",
+        "description": "Helping Indian farmers reduce flood-related crop loss with AI advisory, weather intelligence, and market prices"
+    },
+    "nav": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "chat": "AI Chat",
+        "login": "Login",
+        "signup": "Sign Up",
+        "logout": "Logout"
+    },
+    "landing": {
+        "hero": {
+            "title": "Smart Farming Starts Here",
+            "subtitle": "Get AI-powered flood alerts, weather forecasts, and mandi prices — all in one place",
+            "cta": "Start Farming Smarter",
+            "secondaryCta": "Learn More"
+        },
+        "features": {
+            "title": "Everything You Need to Farm Smarter",
+            "subtitle": "Powerful tools designed for Indian farmers",
+            "ai": {
+                "title": "AI Farming Advice",
+                "description": "Get personalized recommendations for your crops based on weather and market conditions"
+            },
+            "flood": {
+                "title": "Flood Risk Alerts",
+                "description": "Stay ahead of floods with real-time risk assessment and safety recommendations"
+            },
+            "weather": {
+                "title": "Weather Forecasts",
+                "description": "Accurate 5-day weather forecasts tailored to your district"
+            },
+            "mandi": {
+                "title": "Mandi Prices",
+                "description": "Track latest commodity prices from nearby mandis to sell at the best time"
+            }
+        },
+        "testimonials": {
+            "title": "Trusted by Farmers Across India",
+            "1": {
+                "text": "AgriPulse helped me save my rice crop during the monsoon floods. The early warning was a lifesaver!",
+                "author": "Ramesh Kumar",
+                "location": "Tamil Nadu"
+            },
+            "2": {
+                "text": "I now check mandi prices every morning before deciding when to sell my vegetables. Great tool!",
+                "author": "Lakshmi Devi",
+                "location": "Andhra Pradesh"
+            },
+            "3": {
+                "text": "The AI gives me farming tips in Hindi. Very easy to understand and follow.",
+                "author": "Suresh Yadav",
+                "location": "Uttar Pradesh"
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome Back",
+            "subtitle": "Sign in to continue to your dashboard",
+            "email": "Email Address",
+            "password": "Password",
+            "button": "Sign In",
+            "noAccount": "Don't have an account?",
+            "signupLink": "Sign up"
+        },
+        "signup": {
+            "title": "Create Your Account",
+            "subtitle": "Join thousands of smart farmers",
+            "email": "Email Address",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "district": "Select Your District",
+            "language": "Preferred Language",
+            "button": "Create Account",
+            "hasAccount": "Already have an account?",
+            "loginLink": "Sign in"
+        }
+    },
+    "dashboard": {
+        "greeting": "Welcome back",
+        "weather": {
+            "title": "Today's Weather",
+            "temperature": "Temperature",
+            "humidity": "Humidity",
+            "rainfall": "Rainfall",
+            "wind": "Wind Speed",
+            "forecast": "5-Day Forecast"
+        },
+        "flood": {
+            "title": "Flood Risk Status",
+            "low": "LOW",
+            "medium": "MEDIUM",
+            "high": "HIGH",
+            "tips": "Safety Tips"
+        },
+        "mandi": {
+            "title": "Mandi Prices",
+            "commodity": "Commodity",
+            "market": "Market",
+            "minPrice": "Min Price",
+            "maxPrice": "Max Price",
+            "modalPrice": "Modal Price",
+            "lastUpdated": "Last Updated",
+            "selectCommodity": "Select a commodity"
+        },
+        "quickActions": {
+            "title": "Quick Actions",
+            "askAi": "Ask AI",
+            "weather": "Weather Details",
+            "mandi": "Mandi Prices",
+            "floodTips": "Flood Safety"
+        }
+    },
+    "chat": {
+        "title": "AI Farming Assistant",
+        "placeholder": "Ask me anything about farming...",
+        "send": "Send",
+        "thinking": "Thinking...",
+        "error": "Sorry, I couldn't process your request. Please try again.",
+        "welcome": "Hello! I'm your AI farming assistant. How can I help you today?",
+        "voice": "Play Voice"
+    },
+    "alerts": {
+        "flood": "Flood Warning",
+        "weather": "Weather Alert",
+        "dismiss": "Dismiss"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "retry": "Try Again",
+        "save": "Save",
+        "cancel": "Cancel",
+        "back": "Back",
+        "next": "Next",
+        "selectLanguage": "Select Language"
+    },
+    "languages": {
+        "en": "English",
+        "hi": "Hindi",
+        "ta": "Tamil",
+        "te": "Telugu"
+    }
+}

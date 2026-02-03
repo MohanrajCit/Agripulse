@@ -1,0 +1,1 @@
+export { MandiPriceCard } from './MandiPriceCard';
